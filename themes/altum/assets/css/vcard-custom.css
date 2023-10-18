@@ -1,0 +1,204 @@
+body {
+	width: 100%;
+	height: 100%;
+}
+
+/* Share qr code */
+.qr-code img {
+	width: 100%;
+}
+
+/* Base animation */
+.altum-animate {
+	-webkit-animation-duration:1s;
+	animation-duration:1s;
+}
+
+.altum-animate-fill-both {
+	-webkit-animation-fill-mode:both;
+	animation-fill-mode:both;
+}
+
+.altum-animate-fill-none {
+	-webkit-animation-fill-mode:none;
+	animation-fill-mode:none;
+}
+
+@-webkit-keyframes fadeIn{
+	0% {
+		opacity:0
+	}
+	to {
+		opacity:1
+	}
+}
+@keyframes fadeIn{
+	0% {
+		opacity:0
+	}
+	to {
+		opacity:1
+	}
+}
+.altum-animate-fade-in {
+	-webkit-animation-name:fadeIn;
+	animation-name:fadeIn
+}
+
+/* Images, icons */
+.svg-sm, .svg-sm svg {
+	width: 1rem;
+	height: 1rem;
+}
+
+.svg-md, .svg-md svg {
+	width: 1.25rem;
+	height: 1.25rem;
+}
+
+.svg-lg, .svg-lg svg {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+/* Modals */
+.modal-header {
+	padding: 1rem;
+	border-bottom: 0;
+}
+
+.modal-subheader {
+	padding: 0 1rem;
+	border-bottom: 0;
+	margin: 0;
+}
+
+.modal-content {
+	padding: 1rem;
+	border: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+/* New york */
+.new-york-logo {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 50rem;
+	background: var(--white);
+
+	top: -3.2rem;
+	border: 2px solid var(--white);
+}
+
+/* San Francisco */
+.san-francisco-logo {
+	width: 100px;
+	height: 100px;
+	object-fit: cover;
+	border-radius: .25rem;
+	background: var(--white);
+	border: 2px solid var(--gray-100);
+}
+
+.san-francisco-button {
+	display: block;
+	padding: .5rem .75rem;
+	margin: .5rem 0;
+	transition: .3s background;
+	word-break: break-all;
+}
+
+.san-francisco-button:hover {
+	background: var(--gray-100);
+	border-radius: .25rem;
+}
+
+.san-francisco-button .icon {
+	width: 2.5rem;
+	height: 2.5rem;
+	min-width: 2.5rem;
+	min-height: 2.5rem;
+	background: var(--gray-100);
+	transition: .3s background;
+}
+.san-francisco-button:hover .icon {
+	background: var(--gray-200);
+}
+
+.san-francisco-card {
+	padding: 2.25rem;
+}
+
+/* Los Angeles */
+.los-angeles-logo {
+	width: 125px;
+	height: 125px;
+	object-fit: cover;
+	border-radius: 50rem;
+	background: var(--white);
+	border: 2px solid var(--gray-100);
+}
+
+.los-angeles-button {
+	display: block;
+	padding: .5rem .75rem;
+	margin: .5rem 0;
+	transition: .3s background;
+	background: var(--gray-100);
+	border-radius: .25rem;
+	word-break: break-all;
+}
+
+.los-angeles-button:hover {
+	background: var(--gray-200);
+}
+
+.los-angeles-button .icon {
+	width: 2.5rem;
+	height: 2.5rem;
+	min-width: 2.5rem;
+	min-height: 2.5rem;
+	transition: .3s background;
+}
+
+.los-angeles-card {
+	padding: 2rem;
+}
+
+/* Chicago */
+.chicago-logo {
+	width: 75px;
+	height: 75px;
+	object-fit: cover;
+	/*border-radius: 50rem;*/
+	background: var(--white);
+}
+
+.chicago-button {
+	display: block;
+	padding: .5rem .75rem;
+	margin: .5rem 0;
+	transition: .3s background;
+	background: var(--gray-100);
+	word-break: break-all;
+}
+
+.chicago-button:hover {
+	background: var(--gray-200);
+}
+
+.chicago-button .icon {
+	width: 2.5rem;
+	height: 2.5rem;
+	min-width: 2.5rem;
+	min-height: 2.5rem;
+	transition: .3s background;
+}
+.chicago-button:hover .icon {
+}
+
+.chicago-card {
+	padding: 2rem;
+}
